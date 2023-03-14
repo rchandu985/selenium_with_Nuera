@@ -25,6 +25,48 @@
     <button id="click" onclick="alert_test()">Click Me</button>
 </form>
 
+<table border="2px">
+    <tr>
+        <th>name</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>chandu</td>
+        <td>21</td>
+    </tr>
+    <tr>
+        <td>raj</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>
+            ramu
+        </td>
+        <td>36</td>
+    </tr>
+    <tr>
+        <td>venki</td>
+        <td>45</td>
+    </tr>
+</table>
+
+<!DOCTYPE html>
+<html>
+<body>
+<br><br>    
+<button name="dbc" ondblclick="myFunction()">Double-click this paragraph to trigger a function.</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML += "Hello World ";
+}
+</script>
+
+</body>
+</html>
+
 <script>
     function alert_test(){
         alert("accept the alert")
