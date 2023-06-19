@@ -1,2 +1,4 @@
 # selenium_with_Nuera 
-#**Project Setup **
+```bash
+pip install foobar
+```
